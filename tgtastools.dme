@@ -1,0 +1,21 @@
+// DM Environment file for tgtastools.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+//If you get an error saying this file doesn't exist, make sure you moved EVERYTHING into the root of your tgstation code
+#include "tgstation.dme"
+
+//This file #includes all of the TAS tools needed.
+//It goes after tgstation.dme because we want to overwrite procs and vars, not the other way around.
+#include "TAS\environment.dme"
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
