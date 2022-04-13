@@ -14,8 +14,10 @@
 
 //This file #includes all of the TAS tools needed.
 //It goes after tgstation.dme because we want to overwrite procs and vars, not the other way around.
-#include "TAS\environment.dme"
+#include "TAS\environment.dm"
 
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 
+// BEGIN_INCLUDE
+// END_INCLUDE
