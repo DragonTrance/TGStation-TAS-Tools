@@ -13,5 +13,6 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
+#include "manager.dm"
 // END_INCLUDE
 

@@ -1,0 +1,41 @@
+Future manual text shit
+
+WAIT
+ Usage: WAIT <deciseconds> OR WAIT UNTIL <operation>
+
+WAIT UNTIL <operation>
+ Options:
+	START - Waits until the round started
+	MOVED - Waits until the client can walk again
+	DELTA - Waits until the next Master tick. Can be useful.
+
+WAIT UNTIL <operation> OR IMMEDIATELY
+ Usage: Same as WAIT, but won't sleep if the operation is already available. i.e. START, MOVED
+
+KEY_DOWN <keys>
+ Usage: sets the client's key presses to everything after KEY_DOWN, excluding semicolon because that's a fucked thing
+ - SHIFT, CTRL, ALT can be used as alternatives for those. F1-12 can also be used as alternatives. Separated by spaces.
+
+KEY_UP <keys>
+ Usage: Same as KEY_DOWN, but removes the keys.
+
+KEY_PRESS <keys>
+ Usage: Essentially runs KEY_DOWN and KEY_UP on the provided keys the next available moment, without having the key loops.
+
+BIND_DOWN <bind datum>, BIND_UP <bind datum>, BIND_PRESS <bind datum>
+ Usage: Effectively the same as KEY_DOWN, KEY_UP, and KEY_PRESS, except besides the key it forcefully presses whatever key is associated with the desired binding's path.
+
+
+NOT NEEDED, just fun meme shit:
+
+FORCE_SAY <message>
+ Usage: Forces the mob the client is controlling to say() the message provided
+
+SIGNAL_TO <signal>
+ Usage: Sends an empty signal to your mob.
+
+SIGNAL_FROM <signal>
+ Usage: Forces the mob to send an empty signal.
+
+SDQL <operation>
+ Usage: Runs an SDQL operation. Just for fun meme shit
