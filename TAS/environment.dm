@@ -1,3 +1,4 @@
+#include "defines.dm"
 #include "manager.dm"
 //Making sure this actually loads by outputting to the world.
 /world/New()
